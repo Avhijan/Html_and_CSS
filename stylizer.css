@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(14, 0, 0);
+}
+p , h1, h2, h3{
+    background: rgb(30, 30, 30);
+    color: white;
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+h1, h2, h3{
+    font-size: 500%;
+    font-weight: 500%;
+    font-size: 350%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: -10px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    border: 5px white dashed;
+    
+}
+h2 ,h3{
+    
+    font-size: 300%;
+    text-align: left;
+    text-indent: 50px;
+    text-decoration: underline dotted;
+    margin-top: 150px;
+    border: none;
+}
+p{
+    margin-top: 5px;
+    font-weight: 200;
+    font-size: large;
+    line-height: 150%;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+   
+}
