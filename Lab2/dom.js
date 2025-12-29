@@ -28,11 +28,23 @@
 
 // }
 
-newButton = document.createElement('button');
-newButton.innerText = 'CLick';
-document.querySelector('body').appendChild(newButton)
+// newButton = document.createElement('button');
+// newButton.innerText = 'CLick';
+// document.querySelector('body').appendChild(newButton)
 
-newlink = document.createElement('a');
-newlink.innerText='naya link';
-newlink.href='#'
-document.querySelector('body').appendChild(newlink);
+// newlink = document.createElement('a');
+// newlink.innerText='naya link';
+// newlink.href='#'
+// document.querySelector('body').appendChild(newlink);
+
+let count = 0;
+
+document.getElementById("plus").addEventListener("click", function () {
+    count++;
+    document.getElementById("count").textContent = count;
+});
+
+document.getElementById("minus").addEventListener("click", function () {
+    count--;
+    document.getElementById("count").textContent = count;
+});
